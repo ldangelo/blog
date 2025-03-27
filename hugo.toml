@@ -1,0 +1,7 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Musings of a Veteran CTO'
+[params]
+    subtitle = 'I have learned a lot of lessons the hard way over the years.  Let me save you the trouble.'
+    [params.contact]
+    email = 'leo.dangelo@fortiumpartners.com'
