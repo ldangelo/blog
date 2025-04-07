@@ -5,3 +5,6 @@ title = 'Musings of a Veteran CTO'
     subtitle = 'I have learned a lot of lessons the hard way over the years.  Let me save you the trouble.'
     [params.contact]
     email = 'leo.dangelo@fortiumpartners.com'
+[caches]
+    [caches.images]
+    dir = ':chachjeDir/images'
