@@ -4,10 +4,45 @@ author = ["Leo D'Angelo"]
 draft = false
 +++
 
+-**- org-hugo-base-dir: "~/Documents/blog"; -**-
+
 \#end:
 
 
 ## AI {#ai}
+
+
+### Setting up linear MCP server with Claude Code {#setting-up-linear-mcp-server-with-claude-code}
+
+I recently installed the linear MCP server in Claude Code and it's a game changer.  Installing it wasn't difficult, however, finding the correct server was.  The one I eventually settled on is: <http://github.com/cosmix/linar-mcp.git>
+
+Below are the steps to install the server.
+
+1.  Clone the repo:
+
+<!--listend-->
+
+```shell
+mkdir ~/mcp
+cd ~/mcp
+git clone http://github.com/cosmix/linear-mcp.git
+```
+
+1.  Setup your linear api key
+
+I set my linear api key in my .zshrc.  To do so:
+
+```shell
+export LINEAR_API_KEY=your_linear_key
+```
+
+1.  Install the mcp server
+
+<!--listend-->
+
+```shell
+claude mcp add node ~/mcp/lear/build/index.js -e LINEAR_API_KEY=$LINEAR_API_KEY
+```
 
 
 ### Using Claude and Linear to manage stories and tasks {#using-claude-and-linear-to-manage-stories-and-tasks}
