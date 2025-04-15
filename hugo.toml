@@ -1,10 +1,25 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.oftheangels.org/'
 languageCode = 'en-us'
 title = 'Musings of a Veteran CTO'
+# Don't use a theme, rely on our layouts
+# theme = ""
+
 [params]
     subtitle = 'I have learned a lot of lessons the hard way over the years.  Let me save you the trouble.'
     [params.contact]
     email = 'leo.dangelo@fortiumpartners.com'
 [caches]
     [caches.images]
-    dir = ':chachjeDir/images'
+    dir = ':cacheDir/images'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/post/"
+    weight = 20
