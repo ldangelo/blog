@@ -41,7 +41,9 @@ claude mcp add node ~/mcp/lear/build/index.js -e LINEAR_API_KEY=$LINEAR_API_KEY
 ## Test the integration
 
 ```shell
+claude
 
+list my tasks from linear for project fx-expert
 
 ```
 
