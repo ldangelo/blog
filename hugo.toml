@@ -5,6 +5,7 @@ title = 'Musings of a Veteran CTO'
 theme = "hugo-theme-stack"
 
 [params]
+    featuredImageField= true
     rssFullContent=true
     [widgets]
 
@@ -32,10 +33,11 @@ theme = "hugo-theme-stack"
     [[widgets.page]]
     type = "toc"
 
-    subtitle = "A veteran CTO with 40+ years of experience in software development, cloud infrastructure, and technology leadership."
 
     [params.contact]
     email = 'leo.dangelo@fortiumpartners.com'
+    [params.sidebar]
+    subtitle = 'A veteran CTO with 40+ years of experience in software development, cloud infrastructure, and technology leadership.'
     [params.sidebar.avatar]
         enabled=true
         src = "headshot.jpg"
