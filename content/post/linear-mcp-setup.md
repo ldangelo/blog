@@ -5,6 +5,7 @@ tags= ["Claude", "AI", "Linear", "MCP"]
 title = "Setting up Claude and Linear MCP"
 date = "2025-03-01"
 draft= false
+slug="linear-mcp-setup"
 +++
 
 
