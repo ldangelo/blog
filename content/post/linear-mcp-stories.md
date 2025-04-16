@@ -17,26 +17,26 @@ In order to get this to work you will need to use Claude (I prefer Claude code) 
 
 ## List your projects
 
-`
+```
 List my linear projects
-`
-### Output
+```
+### Output from Claude Code
 
-`
+```
 ⏺ Your Linear projects:
   1. fx-expert (ID: 38ee8702-8c34-4ddf-ac1a-fd6553c5b088)
   2. fx-agents (ID: 27052d98-be4a-4789-943d-8194cb4b8ea9)
-`
+```
 
 ## List your tasks
 
-`
+```
 List my tasks for the project 'fx-expert'
-`
+```
 
-### Output
+### Output from Claude Code
 
-`
+```
 ⏺ Tasks for fx-expert project:
 
   In Progress:
@@ -59,18 +59,18 @@ List my tasks for the project 'fx-expert'
 
   Done:
   - FOR-10: Generate unique url for partners to add to e-mail and linkedin
-`
+```
 
 ## Create a story
 
 Here we are going to add a story and related sub-tasks to protect all API endpoints using JWT tokens.
 
-`
+```
 Create a story and sub-tasks to add JWT tokens to all API endpoints.
-`
-### Output
+```
+### Output from Claude Code
 
-`
+```
 ⏺ Created JWT authentication story with subtasks:
 
   Main story: FOR-35 - Add JWT token authentication to all API endpoints
@@ -83,7 +83,7 @@ Create a story and sub-tasks to add JWT tokens to all API endpoints.
 
   All tasks are assigned to you in the Backlog with priority 2.
 
-`
+```
 
 # Conclusion
 
