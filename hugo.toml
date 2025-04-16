@@ -2,24 +2,61 @@ baseURL = 'https://blog.oftheangels.org/'
 languageCode = 'en-us'
 title = 'Musings of a Veteran CTO'
 # Don't use a theme, rely on our layouts
-# theme = ""
+theme = "hugo-theme-stack"
 
 [params]
+    rssFullContent=true
+    [widgets]
+
+    [[widgets.homepage]]
+    type = "search"
+
+    [[widgets.homepage]]
+    type = "archives"
+
+    [widgets.homepage.params]
+    limit = 5
+
+    [[widgets.homepage]]
+    type = "categories"
+
+    [widgets.homepage.params]
+    limit = 10
+
+    [[widgets.homepage]]
+    type = "tag-cloud"
+
+    [widgets.homepage.params]
+    limit = 10
+
+    [[widgets.page]]
+    type = "toc"
+
     subtitle = 'I have learned a lot of lessons the hard way over the years.  Let me save you the trouble.'
     [params.contact]
     email = 'leo.dangelo@fortiumpartners.com'
+    [params.sidebar.avatar]
+        enabled=true
+        src = "headshot.jpg"
+        local = true
+
 [caches]
     [caches.images]
     dir = ':cacheDir/images'
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About Me"
-    url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "posts"
-    name = "Blog"
-    url = "/post/"
-    weight = 20
+    [[menu.social]]
+        name="Github"
+        url="https://github.com/ldangelo"
+        [menu.social.params]
+                icon="brand-github"
+    [[menu.social]]
+        name="Linkedin"
+        url="https://www.linkedin.com/in/leo-d-angelo-5a0a83/"
+        [menu.social.params]
+                icon="linkedin"
+    [[menu.social]]
+        name="Twitter"
+        url="https://x.com/ldangelo"
+        [menu.social.params]
+                icon="x"
