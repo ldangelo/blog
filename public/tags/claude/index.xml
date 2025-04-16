@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Claude on Musings of a Veteran CTO</title>
+        <link>http://localhost:1313/tags/claude/</link>
+        <description>Recent content in Claude on Musings of a Veteran CTO</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/claude/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Using Claude and Linear to manage stories and tasks</title>
+        <link>http://localhost:1313/post/linear-mcp-stories/</link>
+        <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/linear-mcp-stories/</guid>
+        <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h1&gt;&lt;p&gt;I recently discovered that Claude is an excellent solution for creating user stories and breaking those stories down into smaller tasks. One of the big advantages of using Claude to do this is because it is looking at your code it can determine specific tasks to perform to complete the story. This process greatly reduces sprint overhead as long backlog grooming sessions are greatly reduced.&lt;/p&gt;
+&lt;p&gt;In order to get this to work you will need to use Claude (I prefer Claude code) and an MCP server connected to your ticketing system (I will demonstrate using Linear).  This same technique should work with any of the other ticketing systems as well (such as jira, github, etc&amp;hellip;).  If you would like intructions on installing the Linear MCP server instructions can be found [[here]]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Setting up Claude and Linear MCP</title>
+        <link>http://localhost:1313/post/linear-mcp-setup/</link>
+        <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/linear-mcp-setup/</guid>
+        <description>&lt;h1 id=&#34;overview&#34;&gt;Overview
+&lt;/h1&gt;&lt;p&gt;I recently installed the linear MCP server in Claude Code and it&amp;rsquo;s a game changer. Installing it wasn&amp;rsquo;t difficult, however, finding the correct server was. The one I eventually settled on is: &lt;a class=&#34;link&#34; href=&#34;http://github.com/cosmix/linar-mcp.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://github.com/cosmix/linar-mcp.git&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Below are the steps to install the server.&lt;/p&gt;
+&lt;h2 id=&#34;clone-the-github-repository&#34;&gt;Clone the github repository:
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir ~/mcp
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ~/mcp
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone http://github.com/cosmix/linear-mcp.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;setup-your-linear-api-key&#34;&gt;Setup your linear api key
+&lt;/h2&gt;&lt;p&gt;I set my linear api key in my .zshrc. To do so:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export LINEAR_API_KEY&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;your_linear_key
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;install-the-mcp-server&#34;&gt;Install the mcp server
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;claude mcp add node ~/mcp/lear/build/index.js -e LINEAR_API_KEY&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$LINEAR_API_KEY
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;test-the-integration&#34;&gt;Test the integration
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;claude
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;list my tasks from linear &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; project fx-expert
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
