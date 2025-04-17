@@ -3,13 +3,14 @@ languageCode = 'en-us'
 title = 'Musings of a Veteran CTO'
 # Don't use a theme, rely on our layouts
 theme = "hugo-theme-stack"
+[services]
+[googleAnalytics]
+id = "G-FFPF3E5XZ5"
+
 
 [params]
 featuredImageField = true
 rssFullContent = true
-[services]
-    [googleAnalytics]
-    id="G-FFPF3E5XZ5"
 [widgets]
 
 [[widgets.homepage]]
@@ -76,7 +77,7 @@ icon = "x"
 
 
 [imageProcessing]
-    [cover]
-        enabled = true
-    [content]
-        enabled = true
+[cover]
+enabled = true
+[content]
+enabled = true
