@@ -5,61 +5,68 @@ title = 'Musings of a Veteran CTO'
 theme = "hugo-theme-stack"
 
 [params]
-    featuredImageField= true
-    rssFullContent=true
-    [widgets]
+featuredImageField = true
+rssFullContent = true
+[widgets]
 
-    [[widgets.homepage]]
-    type = "search"
+[[widgets.homepage]]
+type = "search"
 
-    [[widgets.homepage]]
-    type = "archives"
+[[widgets.homepage]]
+type = "archives"
 
-    [widgets.homepage.params]
-    limit = 5
+[widgets.homepage.params]
+limit = 5
 
-    [[widgets.homepage]]
-    type = "categories"
+[[widgets.homepage]]
+type = "categories"
 
-    [widgets.homepage.params]
-    limit = 10
+[widgets.homepage.params]
+limit = 10
 
-    [[widgets.homepage]]
-    type = "tag-cloud"
+[[widgets.homepage]]
+type = "tag-cloud"
 
-    [widgets.homepage.params]
-    limit = 10
+[widgets.homepage.params]
+limit = 10
 
-    [[widgets.page]]
-    type = "toc"
+[[widgets.page]]
+type = "toc"
 
 
-    [params.contact]
-    email = 'leo.dangelo@fortiumpartners.com'
-    [params.sidebar]
-    subtitle = 'A veteran CTO with 40+ years of experience in software development, cloud infrastructure, and technology leadership.'
-    [params.sidebar.avatar]
-        enabled=true
-        src = "headshot.jpg"
-        local = true
+[params.contact]
+email = 'leo.dangelo@fortiumpartners.com'
+[params.sidebar]
+subtitle = 'A veteran CTO with 40+ years of experience in software development, cloud infrastructure, and technology leadership.'
+[params.sidebar.avatar]
+enabled = true
+src = "headshot.jpg"
+local = true
 
 [caches]
-    [caches.images]
-    dir = ':cacheDir/images'
+[caches.images]
+dir = ':cacheDir/images'
 
 [menu]
-    [[menu.social]]
-        name="Github"
-        url="https://github.com/ldangelo"
-        [menu.social.params]
-                icon="brand-github"
-    [[menu.social]]
-        name="Linkedin"
-        url="https://www.linkedin.com/in/leo-d-angelo-5a0a83/"
-        [menu.social.params]
-                icon="linkedin"
-    [[menu.social]]
-        name="Twitter"
-        url="https://x.com/ldangelo"
-        [menu.social.params]
-                icon="x"
+[[menu.main]]
+name = "About Me"
+url = "/about"
+weight = 10
+[menu.main.params]
+icon = "user"
+
+[[menu.social]]
+name = "Github"
+url = "https://github.com/ldangelo"
+[menu.social.params]
+icon = "brand-github"
+[[menu.social]]
+name = "Linkedin"
+url = "https://www.linkedin.com/in/leo-d-angelo-5a0a83/"
+[menu.social.params]
+icon = "linkedin"
+[[menu.social]]
+name = "Twitter"
+url = "https://x.com/ldangelo"
+[menu.social.params]
+icon = "x"
