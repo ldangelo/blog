@@ -4,7 +4,7 @@ title = 'Musings of a Veteran CTO'
 # Don't use a theme, rely on our layouts
 theme = "hugo-theme-stack"
 [services]
-[googleAnalytics]
+[services.googleAnalytics]
 id = "G-FFPF3E5XZ5"
 
 
