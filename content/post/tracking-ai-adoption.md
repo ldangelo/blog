@@ -4,6 +4,7 @@ tags= ["ROI", "AI", "Agile" ]
 title= "Tracking AI adoption within your development organization"
 date = "2025-03-16"
 draft= false
+comments=true
 +++
 ![Tracking Developer Productivity](https://cdn.thenewstack.io/media/2021/12/7ae791dc-tech-worker-2021-1024x576.jpg)
 # Introduction

@@ -7,6 +7,9 @@ theme = "hugo-theme-stack"
 [params]
 featuredImageField = true
 rssFullContent = true
+[services]
+    [googleAnalytics]
+    id="G-FFPF3E5XZ5"
 [widgets]
 
 [[widgets.homepage]]
@@ -70,6 +73,7 @@ name = "Twitter"
 url = "https://x.com/ldangelo"
 [menu.social.params]
 icon = "x"
+
 
 [imageProcessing]
     [cover]
