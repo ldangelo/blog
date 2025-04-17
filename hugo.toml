@@ -11,30 +11,29 @@ id = "G-FFPF3E5XZ5"
 [params]
 featuredImageField = true
 rssFullContent = true
-[widgets]
 
-[[widgets.homepage]]
+[[params.widgets.homepage]]
 type = "search"
 
-[[widgets.homepage]]
+[[params.widgets.homepage]]
 type = "archives"
 
-[widgets.homepage.params]
+[params.widgets.homepage.params]
 limit = 5
 
-[[widgets.homepage]]
+[[params.widgets.homepage]]
 type = "categories"
 
-[widgets.homepage.params]
+[params.widgets.homepage.params]
 limit = 10
 
-[[widgets.homepage]]
+[[params.widgets.homepage]]
 type = "tag-cloud"
 
-[widgets.homepage.params]
+[params.widgets.homepage.params]
 limit = 10
 
-[[widgets.page]]
+[[params.widgets.page]]
 type = "toc"
 
 
