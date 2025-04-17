@@ -70,3 +70,9 @@ name = "Twitter"
 url = "https://x.com/ldangelo"
 [menu.social.params]
 icon = "x"
+
+[imageProcessing]
+    [cover]
+        enabled = true
+    [content]
+        enabled = true
