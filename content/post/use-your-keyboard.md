@@ -3,7 +3,7 @@ categories= ["Productivity"]
 tags= ["Keyboard", "Shortcuts", "Mouseless" , "Home Row Mods"]
 title= "Remap your keyboard to make your workflow more efficient"
 date = "2025-03-17"
-draft= true
+draft=false
 comments=true
 +++
 
@@ -161,9 +161,9 @@ Using home row mods I limit the movement of my fingers to 'control' my
 computer, making the experience much more enjoyable.
 
 Remapping my home row is a foundational component to the rest of my
-keyboard productivity system. I use other tools like [Raycast](https://raycast.com/),
-[WezTerm](https://wezterm.org/), neovim and emacs to round out my system.
+keyboard productivity system. I use other tools like [Raycast](https://raycast.com/), [WezTerm](https://wezterm.org/), aerospace, vimium, mouseless, neovim and emacs to round out my system.
 I will be producing additional blog posts on these other tools followed
-up by a video of using the entire system in anger. With my entire 'system' in place I can launch apps, switch between apps, scroll windows, edit text, etc... All without ever leaving the keyboard. For the rare occassion where
-I actually need to use the mouse I use [mouseless](https://mouseless.org/) to do it
-from the comfort of my keyboard.
+up by a video of using the entire system in anger. With my entire 'system' in
+place I can launch apps, switch between apps, scroll windows, edit text, etc...
+All without ever leaving the keyboard. For the rare occassion where
+I actually need to use the mouse I use [mouseless](https://mouseless.org/) to do it from the comfort of my keyboard.
