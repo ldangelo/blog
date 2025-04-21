@@ -5,6 +5,8 @@ description: "Exploring the game-changing advantages and practical limitations o
 tags: ["ai", "openrouter", "llm", "api"]
 categories: ["ai"]
 image: "images/hero.jpg"
+draft: false
+slug: "openrouter"
 ---
 
 ## The AI Model Explosion
