@@ -148,3 +148,5 @@ Is OpenRouter perfect? No. Will it be the optimal choice for every use case? Als
 The next time you find yourself signing up for yet another AI provider account just to try their new model, ask yourself: Wouldn't this be easier with OpenRouter?
 
 _Visit [OpenRouter's official website](https://openrouter.ai/) for the most current information._
+
+Need expert guidance? Contact ["Fortium Partners"](http://www.fortiumpartners.com/) to help you navigate the vast array of AI tools and integrations, ensuring you select and implement the optimal solution for your unique requirements.
