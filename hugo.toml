@@ -9,7 +9,7 @@ id = "G-FFPF3E5XZ5"
 
 
 [params]
-featuredImageField = true
+featuredImageField = "image"
 rssFullContent = true
 
 [[params.widgets.homepage]]
@@ -50,6 +50,7 @@ local = true
 [caches.images]
 dir = ':cacheDir/images'
 
+
 [menu]
 [[menu.main]]
 name = "About Me"
@@ -76,7 +77,5 @@ icon = "x"
 
 
 [imageProcessing]
-[cover]
-enabled = true
 [content]
 enabled = true
