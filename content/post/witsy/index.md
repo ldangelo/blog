@@ -62,3 +62,5 @@ Witsy is a BYOK (Bring Your Own Keys) AI application, which means you need to ha
 7. **Computer Automation**: If you have Anthropic's Computer Use enabled, you can use Witsy to automate various tasks on your computer, from file management to application control.
 
 In conclusion, Witsy is a powerful and feature-rich desktop AI assistant that offers a wide range of capabilities for productivity, creativity, and automation. While it has a learning curve and requires API keys, its flexibility and extensive feature set make it a valuable tool for those looking to leverage the power of large language models in their daily workflows.
+
+Need expert guidance? Contact ["Fortium Partners"](http://www.fortiumpartners.com/) to help you navigate the vast array of AI tools and integrations, ensuring you select and implement the optimal solution for your unique requirements.
