@@ -11,54 +11,36 @@ comments=true
 
 ## Overview
 
-The better the prompt the better the outcome. Most AI projects go
-sideways because little to no effort is put into developing a more
-effective prompt. The more you can tell the AI about the problem
-the higher the success rate will be. This is called prompt development.
+The quality of your prompt directly influences the outcome of AI projects. Many AI initiatives falter due to insufficient effort in crafting effective prompts. By providing comprehensive details about the problem to the AI, you significantly increase the likelihood of success. This process is known as prompt development.
 
 ## Use Claude to help you iterate on your prompts
 
-Start with a simple prompt and iterate on it. The more you can tell
-Claude with each step the better the outcome will be. Start simple
-with business requirements and expand from there.
+Begin with a basic prompt and refine it through iterations. With each step, provide Claude with more information to enhance the results. Start by outlining the business requirements and gradually expand to include more details.
 
 ### A simple starting point
 
-I recently started a project by defining the business requirements,
-adding references to external API's and defining what success looks like.
-I then asked Claude to create a component diagram and class diagram based
-on the provided information.
+In a recent project, I began by clearly defining the business requirements, incorporating references to external APIs, and establishing success criteria. I then engaged Claude to generate component and class diagrams based on this foundational information.
 
 ### Create some high level diagrams
 
-I iterated on the diagrams using Claude until I was satisfied. I then
-referenced these diagrams that Claude helped me create and re-read the
-prompt. I then asked Claude to write a prompt based on the diagrams.
+I worked with Claude to refine these diagrams until they met my expectations. Using these diagrams as a reference, I revisited the prompt and asked Claude to draft a new prompt based on the visual representations.
 
 ### Add Technical Requirements
 
-I added in technical requirements like language, database, architectural
-principals, etc.. I re-read the prompt and asked Claude to update the prompt.
+Next, I incorporated technical requirements such as programming language, database choices, and architectural principles. After reviewing the prompt, I requested Claude to update it accordingly.
 
 ### Create an executive summary
 
-I then asked Claude to create an executive summary. Iterated with Claude
-on the summary until I was satisfied. I then added the summary to the prompt.
-Re-read the prompt and asked Claude to update the prompt.
+I then tasked Claude with creating an executive summary. Through iterative feedback, we refined the summary until it was polished. This summary was then integrated into the prompt, and I asked Claude to make further updates.
 
 ### Create a product requirements document
 
-I then asked Claude to create a detailed product requirements document.  
-Iterated with Claude until I was satisfied. I then added the requirements
-to the prompt file and asked Claude to update the prompt.
+Subsequently, I requested Claude to draft a comprehensive product requirements document. Through collaboration, we refined this document until it was satisfactory. The finalized requirements were added to the prompt file, and Claude was asked to update the prompt once more.
 
 ### Improve your prompt
 
-I then asked Claude how I could improve the prompt and iterated on it's
-suggestions.
+Finally, I consulted Claude for suggestions on further improving the prompt and iterated on its feedback to enhance the overall quality.
 
 ## Outcome
 
-The resulting prompt was much more detailed and informative than anything
-I could have come up with on my own. You can continue this process until
-Claude starts giving suggestions that provide little to no value.
+The final prompt was significantly more detailed and informative than what I could have developed independently. This iterative process can continue until Claude's suggestions no longer add substantial value.
