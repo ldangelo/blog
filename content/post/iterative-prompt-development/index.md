@@ -23,9 +23,7 @@ Begin with a basic prompt and refine it through iterations. With each step, prov
 
 ### Starting Simple: An Example
 
-For instance, in a recent project, I began by clearly defining the business requirements. Here's how the initial prompt looked: "Create a system that integrates with external APIs to achieve X." As you can see, it's quite basic, but it's a starting point.
-
-In a recent project, I began by clearly defining the business requirements, incorporating references to external APIs, and establishing success criteria. I then engaged Claude to generate component and class diagrams based on this foundational information.
+For instance, in a recent project, I began by clearly defining the business requirements. Here's how the initial prompt looked: "Create a system that integrates with external APIs or loan verification." As you can see, it's quite basic, but it's a starting point. I added references to the external API documentation.
 
 ### Visualizing the Process
 
@@ -38,28 +36,18 @@ I worked with Claude to refine these diagrams until they met my expectations. Us
 
 As the project progressed, I added technical requirements like programming language and database choices. This step is crucial as it ensures the prompt aligns with the technical constraints of the project.
 
-Next, I incorporated technical requirements such as programming language, database choices, and architectural principles. After reviewing the prompt, I requested Claude to update it accordingly.
-
 ### Crafting an Executive Summary
 
 An executive summary provides a high-level overview of the project. With Claude's help, I created a concise summary that captured the essence of the project. This summary was then integrated into the prompt.
-
-I then tasked Claude with creating an executive summary. Through iterative feedback, we refined the summary until it was polished. This summary was then integrated into the prompt, and I asked Claude to make further updates.
 
 ### Developing a Product Requirements Document
 
 A detailed product requirements document is essential for any project. Claude and I collaborated to draft a comprehensive document that outlined all necessary details. This document served as a foundation for further prompt refinement.
 
-Subsequently, I requested Claude to draft a comprehensive product requirements document. Through collaboration, we refined this document until it was satisfactory. The finalized requirements were added to the prompt file, and Claude was asked to update the prompt once more.
-
 ### Continuous Improvement
 
 Finally, I asked Claude for suggestions on how to improve the prompt further. This iterative feedback loop is vital for achieving the best possible outcome. Have you tried asking for feedback on your prompts?
 
-Finally, I consulted Claude for suggestions on further improving the prompt and iterated on its feedback to enhance the overall quality.
-
 ## Conclusion
 
 The iterative process of prompt development can transform a simple idea into a detailed and effective prompt. By continuously refining and seeking feedback, you can ensure your AI projects are set up for success. What steps will you take to improve your prompts?
-
-The final prompt was significantly more detailed and informative than what I could have developed independently. This iterative process can continue until Claude's suggestions no longer add substantial value.
