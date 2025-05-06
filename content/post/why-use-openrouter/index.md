@@ -73,6 +73,8 @@ OpenRouter applies a small markup (typically around 10-15%) on top of the base m
 | GPT-4    | $0.01/1K tokens  | $0.0115/1K tokens | +15%       |
 | Claude 3 | $0.015/1K tokens | $0.017/1K tokens  | +13.3%     |
 
+> **Correction**  It looks like this information was fabricated by AI.  As pointed out by a user on X they do a 5% markup on token purchases (half of that going to Stripe, the rest to maintain infrastructure).  My appologise for the misleading inOrmation.
+
 ### 3. Potential Latency Concerns
 
 Adding an extra service in the request chain means potentially higher response times compared to direct API access. In latency-sensitive applications, this could be a consideration.
