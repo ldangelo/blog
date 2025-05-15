@@ -5,9 +5,8 @@ title= "Iterative prompt development"
 date = "2025-03-28"
 draft=true
 comments=true
+image="https://www.cps.edu/contentassets/c9c5e83a44284b1ebbcf62835166d162/iterating-01.png"
 +++
-
-![Iterative Prompt Development](https://www.cps.edu/contentassets/c9c5e83a44284b1ebbcf62835166d162/iterating-01.png)
 
 ## Introduction
 
