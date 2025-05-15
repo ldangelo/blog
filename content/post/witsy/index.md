@@ -1,6 +1,6 @@
 ---
 title: "Witsy: A powerful desktop AI assistant"
-date: 2024-04-21
+date: 2025-04-21
 description: "Witsy is a powerful desktop AI assistant that allows you to leverage the capabilities of large language models like OpenAI, Anthropic, Google, and more."
 tags: ["ai", "witsy", "ai-client", "mcp"]
 categories: ["ai"]
