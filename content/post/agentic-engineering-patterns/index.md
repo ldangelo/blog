@@ -5,7 +5,7 @@ description: "Simon Willison's Agentic Engineering Patterns guide is the best pr
 tags: ["ai", "engineering", "claude-code", "patterns", "leadership"]
 categories: ["ai"]
 image: "images/agentic-patterns.jpg"
-draft: true
+draft: false
 slug: "agentic-engineering-patterns"
 ---
 
