@@ -5,7 +5,7 @@ description: "A viral video claims AI agents are 'the best technology ever.' Aft
 tags: ["ai", "agents", "productivity", "reality-check"]
 categories: ["ai"]
 image: "images/247-ai-employee.jpg"
-draft: true
+draft: false
 slug: "247-ai-employee-reality"
 ---
 

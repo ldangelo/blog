@@ -5,7 +5,7 @@ description: "How I configured an AI assistant that anticipates my needs, manage
 tags: ["ai", "productivity", "automation", "claude", "agents"]
 categories: ["ai"]
 image: "images/proactive-assistant.jpg"
-draft: true
+draft: false
 slug: "building-proactive-ai-assistant"
 ---
 

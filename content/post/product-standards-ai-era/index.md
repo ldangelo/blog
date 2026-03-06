@@ -5,7 +5,7 @@ description: "When your PM uses AI to write PRDs, you need new review processes.
 tags: ["ai", "product-management", "process", "quality"]
 categories: ["ai"]
 image: "images/product-standards.jpg"
-draft: true
+draft: false
 slug: "product-standards-ai-era"
 ---
 

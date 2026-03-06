@@ -5,7 +5,7 @@ description: "What if your AI assistant worked while you slept? Here's how I bui
 tags: ["ai", "productivity", "automation", "agents"]
 categories: ["ai"]
 image: "images/overnight-ai.jpg"
-draft: true
+draft: false
 slug: "overnight-ai-work-queue"
 ---
 
